@@ -2,6 +2,9 @@ import React from 'react';
 import Header from "../Common/Header";
 import image from '../assets/image/header-bg.jpg'
 
+// Re usable components
+import Services from '../Common/Services'
+
 function Home() {
     return (
         <div>
@@ -13,6 +16,7 @@ function Home() {
                 showButton={true}
                 image = {image}
             />
+            <Services/>
         </div>
     )
 }
