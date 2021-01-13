@@ -4,6 +4,7 @@ import image from '../assets/image/header-bg.jpg'
 
 // Re usable components
 import Services from '../Common/Services'
+import Portfolio from '../Common/Portfolio';
 
 function Home() {
     return (
@@ -17,6 +18,7 @@ function Home() {
                 image = {image}
             />
             <Services/>
+            <Portfolio/>
         </div>
     )
 }
