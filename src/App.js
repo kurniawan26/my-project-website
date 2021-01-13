@@ -7,6 +7,7 @@ import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import Portfolio from './components/Common/Portfolio';
 import Services from './components/Common/Services';
+import Contact from './components/Pages/Contact';
 
 function App() {
   return (
@@ -36,6 +37,11 @@ function App() {
         component={Services}
         />
 
+        <Route
+        exact={true}
+        path="/contact"
+        component={Contact}
+        />
 
 
       </PageWrapper>

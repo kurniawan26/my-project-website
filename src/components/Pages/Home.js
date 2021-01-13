@@ -6,6 +6,8 @@ import image from '../assets/image/header-bg.jpg'
 import Services from '../Common/Services'
 import Portfolio from '../Common/Portfolio';
 import Team from "../Common/Team"
+import Clients from '../Common/Clients';
+import Contact from './Contact';
 
 function Home() {
     return (
@@ -21,6 +23,8 @@ function Home() {
             <Services/>
             <Portfolio/>
             <Team/>
+            <Clients/>
+            <Contact/>
         </div>
     )
 }
